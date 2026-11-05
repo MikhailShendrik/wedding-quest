@@ -6,7 +6,6 @@ import { getGuestByToken } from "@/lib/guest";
 import { getLeaderboard } from "@/lib/leaderboard";
 import { supabaseAdmin } from "@/lib/supabase/server";
 
-
 export default async function LeaderboardPage({
   params,
 }: {

@@ -63,6 +63,25 @@ export default async function GuestHome({
         {uk.leaderboard.open}
       </Link>
 
+      <Link
+        href={`/g/${token}/quests`}
+        className="rounded-3xl bg-amber-700 px-6 py-5 text-center font-medium text-white transition active:scale-[0.98]"
+
+
+      >
+        {uk.quests.open}
+
+
+      </Link>
+
+
+      <Link
+        href={`/g/${token}/leaderboard`}
+        className="rounded-3xl bg-neutral-900 px-6 py-5 text-center font-medium text-white transition active:scale-[0.98]"
+      >
+        {uk.leaderboard.open}
+      </Link>
+
       <section className="space-y-4 rounded-3xl bg-white/70 p-6 shadow-sm ring-1 ring-black/5">
         <h2 className="text-xl font-semibold">{uk.guest.rsvpTitle}</h2>
 
