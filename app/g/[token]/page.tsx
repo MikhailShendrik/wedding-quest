@@ -56,6 +56,12 @@ export default async function GuestHome({
         <p className="text-xs uppercase text-neutral-400">{uk.guest.xp}</p>
         <p className="mt-1 text-4xl font-semibold tabular-nums">{xp} XP</p>
       </section>
+      <Link
+        href={`/g/${token}/leaderboard`}
+        className="rounded-3xl bg-neutral-900 px-6 py-5 text-center font-medium text-white transition active:scale-[0.98]"
+      >
+        {uk.leaderboard.open}
+      </Link>
 
       <Link
         href={`/g/${token}/quests`}
