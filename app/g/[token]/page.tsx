@@ -1,10 +1,10 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import uk from "@/locales/uk.json";
 import { getGuestByToken } from "@/lib/guest";
 import { getGuestXp } from "@/lib/xp";
 import { getSchedule } from "@/lib/schedule";
 import { setRsvp } from "./actions";
-import Link from "next/link";
 
 export default async function GuestHome({
   params,
